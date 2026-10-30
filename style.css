@@ -1,0 +1,34 @@
+/* Course home page: Household and Community Waste Management */
+body {
+  margin: 0;
+  background: #faf6ec;
+  color: #262c28;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+a { color: #1f5f9e; }
+a:hover { color: #c55a11; }
+#wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+#banner img { width: 100%; height: auto; display: block; border-radius: 0 0 10px 10px; }
+#nav { background: #2e5e57; border-radius: 8px; margin: 14px 0 22px 0; padding: 10px 14px; }
+#nav a { color: #ffffff; text-decoration: none; font-weight: bold; margin-right: 18px; display: inline-block; padding: 4px 0; }
+#nav a:hover, #nav a.here { color: #f2d36b; }
+h1 { font-size: 30px; line-height: 1.25; margin: 6px 0 10px 0; color: #2e5e57; }
+h2 { font-size: 23px; margin: 28px 0 8px 0; color: #2e5e57; border-bottom: 2px solid #d8cfb8; padding-bottom: 4px; }
+h3 { font-size: 19px; margin: 18px 0 6px 0; }
+.box { background: #ffffff; border: 1px solid #e2d9c3; border-radius: 10px; padding: 14px 18px; margin: 12px 0; }
+.note { background: #eef5e8; border-left: 5px solid #4e8c48; padding: 10px 14px; border-radius: 6px; }
+table.info { border-collapse: collapse; width: 100%; background: #ffffff; }
+table.info th, table.info td { border: 1px solid #d8cfb8; padding: 8px 10px; text-align: left; vertical-align: top; }
+table.info th { background: #e8e2d2; width: 32%; }
+.bins span { display: inline-block; color: #ffffff; font-weight: bold; padding: 6px 12px; border-radius: 6px; margin: 3px 6px 3px 0; }
+.wet { background: #4e8c48; } .dry { background: #2e6eaa; } .san { background: #c64038; } .spc { background: #eec440; color: #262c28 !important; }
+img.fig { max-width: 100%; height: auto; border: 1px solid #e2d9c3; border-radius: 8px; }
+video, audio { width: 100%; max-width: 720px; }
+#foot { margin: 34px 0 20px 0; padding-top: 12px; border-top: 1px solid #d8cfb8; font-size: 14px; color: #5a605a; }
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  h1 { font-size: 24px; }
+  #nav a { margin-right: 12px; }
+}
